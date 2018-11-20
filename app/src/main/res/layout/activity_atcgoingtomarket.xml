@@ -26,7 +26,7 @@
             android:gravity="center_vertical|center_horizontal"
             android:text="Alabang Town Center - Market! Market! Mall"
             android:textColor="@android:color/holo_orange_light"
-            android:textSize="11sp"
+            android:textSize="10sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"

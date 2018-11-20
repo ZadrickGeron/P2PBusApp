@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".track" />
+        <activity android:name=".allstat" />
+        <activity android:name=".neareststation" />
+        <activity android:name=".atcgoingtog1" />
+        <activity android:name=".atcgoingtomarket" />
+        <activity android:name=".ayalasouthgoingtog5"></activity>
     </application>
 
 </manifest>
