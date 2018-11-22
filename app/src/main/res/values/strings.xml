@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">P2PBusApp</string>
+    <string name="atcg1">Alabang Town Center - Greenbelt 1</string>
+    <string name="logo">Logo</string>
+    <string name="mtof">Monday - Friday</string>
+    <string name="atcg1sched">Alabang Town Center to Greenbelt 1 - from 5:30 AM to 9 PM</string>
+    <string name="depart">  Departure Times                                                Every</string>
 </resources>

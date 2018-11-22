@@ -24,9 +24,9 @@
             android:layout_marginStart="8dp"
             android:background="@android:color/background_dark"
             android:gravity="center_vertical|center_horizontal"
-            android:text="Alabang Town Center - Greenbelt 1"
+            android:text="@string/atcg1"
             android:textColor="@android:color/holo_orange_light"
-            android:textSize="11sp"
+            android:textSize="13sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
@@ -47,6 +47,7 @@
             android:layout_marginTop="8dp"
             android:layout_weight="1"
             android:adjustViewBounds="true"
+            android:contentDescription="@string/logo"
             android:padding="2dp"
             android:scaleType="fitCenter"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -70,8 +71,7 @@
             android:layout_marginTop="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView">
+            app:layout_constraintStart_toStartOf="parent">
 
 
             <LinearLayout
@@ -82,7 +82,7 @@
                     android:id="@+id/textView1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Monday - Friday"
+                    android:text="@string/mtof"
                     android:textColor="@android:color/holo_blue_light"
                     android:textSize="17sp"
                     android:textStyle="bold"/>
@@ -96,7 +96,7 @@
                     android:layout_marginLeft="8dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginTop="8dp"
-                    android:text="Alabang Town Center to Greenbelt 1 - from 5:30 AM to 9 PM"
+                    android:text="@string/atcg1sched"
                     android:textSize="13sp" />
 
                 <TextView
@@ -105,7 +105,7 @@
                     android:layout_height="25dp"
                     android:background="@android:color/darker_gray"
                     android:gravity="center_vertical"
-                    android:text="  Departure Times                                                Every" />
+                    android:text="@string/depart" />
 
                 <TextView
                     android:id="@+id/textView4"
