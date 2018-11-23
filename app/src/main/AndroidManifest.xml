@@ -21,7 +21,26 @@
         <activity android:name=".neareststation" />
         <activity android:name=".atcgoingtog1" />
         <activity android:name=".atcgoingtomarket" />
-        <activity android:name=".ayalasouthgoingtog5"></activity>
+        <activity android:name=".ayalasouthgoingtog5" />
+        <activity android:name=".centralmalldasmatostarmall" />
+        <activity android:name=".clarktotrinoma" />
+        <activity android:name=".eastwoodtog3" />
+        <activity android:name=".eastwoodtomakaticircuit" />
+        <activity android:name=".G5toMegaMalltoTrinomatoSmNorth" />
+        <activity android:name=".Naia1to4loop" />
+        <activity android:name=".Naia3toclark" />
+        <activity android:name=".Nuvalitomakaticircuit" />
+        <activity android:name=".Robinsonsgtog3" />
+        <activity android:name=".Robinsonsnovalichestog3" />
+        <activity android:name=".Robinsonsantipolotogalleria" />
+        <activity android:name=".Robinsonsmalolostotrinoma" />
+        <activity android:name=".Smcherryantipolog5" />
+        <activity android:name=".Smmasinagtog5" />
+        <activity android:name=".Smnorthtosmmegamall" />
+        <activity android:name=".Starmallabangtogalleriatoshaw" />
+        <activity android:name=".Trinomatoglor5" />
+        <activity android:name=".Uptowncentertoglor3" />
+        <activity android:name=".Vistamalltostarmall"></activity>
     </application>
 
 </manifest>
