@@ -16,7 +16,7 @@
 
 
         <TextView
-            android:id="@+id/textView23"
+            android:id="@+id/textView31"
             android:layout_width="386dp"
             android:layout_height="78dp"
             android:layout_marginBottom="8dp"
@@ -24,9 +24,9 @@
             android:layout_marginStart="8dp"
             android:background="@android:color/background_dark"
             android:gravity="center_vertical|center_horizontal"
-            android:text="Ayala South Park Mall - Greenbelt 5"
+            android:text="Central Mall Dasmarinas - Starmall"
             android:textColor="@android:color/holo_orange_light"
-            android:textSize="12sp"
+            android:textSize="13sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
@@ -96,7 +96,7 @@
                     android:layout_marginLeft="8dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginTop="8dp"
-                    android:text="Ayala Malls South Park to Greenbelt 5 - from 6 AM until 8 PM"
+                    android:text="Central Mall Dasmariñas to Starmall Alabang - from 5:30 AM until 7:30 PM"
                     android:textSize="13sp" />
 
                 <TextView
@@ -105,7 +105,8 @@
                     android:layout_height="25dp"
                     android:background="@android:color/darker_gray"
                     android:gravity="center_vertical"
-                    android:text="  Departure Times                                                Every" />
+                    android:text="  Departure Times                                                Every"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView4"
@@ -113,7 +114,7 @@
                     android:layout_height="25dp"
                     android:background="@android:color/background_light"
                     android:gravity="center_vertical"
-                    android:text="  6 AM - 9:30 AM                                                  30 Minutes" />
+                    android:text="  5:30 AM - 7 AM                                                  30 Minutes" />
 
                 <TextView
                     android:id="@+id/textView5"
@@ -121,7 +122,7 @@
                     android:layout_height="25dp"
                     android:background="@android:color/darker_gray"
                     android:gravity="center_vertical"
-                    android:text="  10 AM - 5 PM                                                      1 Hour" />
+                    android:text="  7:15 AM - 8 AM                                                  15 Minutes" />
 
                 <TextView
                     android:id="@+id/textView6"
@@ -129,10 +130,26 @@
                     android:layout_height="25dp"
                     android:background="@android:color/background_light"
                     android:gravity="center_vertical"
-                    android:text="  5:30 PM - 8 PM                                                   30 Minutes" />
+                    android:text="  8:30 AM - 11 AM	                                                   30 Minutes" />
 
                 <TextView
                     android:id="@+id/textView7"
+                    android:layout_width="428dp"
+                    android:layout_height="25dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center_vertical"
+                    android:text="  12 PM - 2 PM                                                  15 Minutes" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="428dp"
+                    android:layout_height="25dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center_vertical"
+                    android:text="  2:30 PM - 7:30 PM	                                                   30 Minutes" />
+
+                <TextView
+                    android:id="@+id/textView9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
@@ -140,24 +157,8 @@
                     android:layout_marginLeft="8dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginTop="8dp"
-                    android:text="Greenbelt 5 to Ayala Malls South Park - from 7 AM until 9 PM"
+                    android:text="Starmall Alabang to Central Mall Dasmariñas - from 7:00 AM until 9:00 PM "
                     android:textSize="13sp" />
-
-                <TextView
-                    android:id="@+id/textView8"
-                    android:layout_width="428dp"
-                    android:layout_height="25dp"
-                    android:background="@android:color/darker_gray"
-                    android:gravity="center_vertical"
-                    android:text="  Departure Times                                                Every" />
-
-                <TextView
-                    android:id="@+id/textView9"
-                    android:layout_width="428dp"
-                    android:layout_height="25dp"
-                    android:background="@android:color/background_light"
-                    android:gravity="center_vertical"
-                    android:text="  7 AM - 9:30 AM	                                                30 Minutes" />
 
                 <TextView
                     android:id="@+id/textView10"
@@ -165,19 +166,168 @@
                     android:layout_height="25dp"
                     android:background="@android:color/darker_gray"
                     android:gravity="center_vertical"
-                    android:text="  10 AM - 5 PM                                                      1 Hour" />
+                    android:text="  Departure Times                                                Every"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="428dp"
+                    android:layout_height="25dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center_vertical"
+                    android:text="  7 AM - 8:30 AM	                                                30 Minutes" />
 
                 <TextView
                     android:id="@+id/textView12"
                     android:layout_width="428dp"
                     android:layout_height="25dp"
-                    android:background="@android:color/background_light"
+                    android:background="@android:color/darker_gray"
                     android:gravity="center_vertical"
-                    android:text="  5:30 PM - 9 PM                                                   30 Minutes" />
-
+                    android:text="  8:45 AM - 9:30 AM                                                      1 Hour" />
 
                 <TextView
                     android:id="@+id/textView13"
+                    android:layout_width="428dp"
+                    android:layout_height="25dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center_vertical"
+                    android:text="  10 AM - 12:30 PM                                                   30 Minutes" />
+
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center_vertical"
+                    android:text="  1:30 PM - 9 PM                                                      1 Hour" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Saturday - Sunday"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Central Mall Dasmariñas to Starmall Alabang - from 6:00 AM until 6:30 PM"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="428dp"
+                    android:layout_height="25dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center_vertical"
+                    android:text="  Departure Times                                                Every"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="428dp"
+                    android:layout_height="25dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center_vertical"
+                    android:text="  6:30 AM - 10 AM                                                  30 Minutes" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="428dp"
+                    android:layout_height="25dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center_vertical"
+                    android:text="  11 AM - 1 PM                                                  15 Minutes" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="428dp"
+                    android:layout_height="25dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center_vertical"
+                    android:text="  1:30 PM - 2:30 PM	                                                   30 Minutes" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="428dp"
+                    android:layout_height="25dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center_vertical"
+                    android:text="  3:30 PM                                                  15 Minutes" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="428dp"
+                    android:layout_height="25dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center_vertical"
+                    android:text="  4:30 PM - 5:30 PM" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center_vertical"
+                    android:text="  6:30 PM                                                  15 Minutes" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Starmall Alabang to Central Mall Dasmariñas - from 7:00 AM until 8:00 PM "
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="428dp"
+                    android:layout_height="25dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center_vertical"
+                    android:text="  Departure Times                                                Every"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="428dp"
+                    android:layout_height="25dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center_vertical"
+                    android:text="  7 AM - 8:30 AM	                                                30 Minutes" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="428dp"
+                    android:layout_height="25dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center_vertical"
+                    android:text="  9:30 AM - 12:30 PM                                                      1 Hour" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="428dp"
+                    android:layout_height="25dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center_vertical"
+                    android:text="  1:30 PM - 8 PM                                                   30 Minutes" />
+
+
+                <TextView
+                    android:id="@+id/textView29"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Fare"
@@ -186,7 +336,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/textView14"
+                    android:id="@+id/textView30"
                     android:layout_width="match_parent"
                     android:layout_height="25dp"
                     android:layout_marginBottom="8dp"
@@ -194,19 +344,7 @@
                     android:layout_marginLeft="8dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginTop="8dp"
-                    android:text="Standard: P100"
-                    android:textSize="13sp" />
-
-                <TextView
-                    android:id="@+id/textView15"
-                    android:layout_width="match_parent"
-                    android:layout_height="25dp"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginEnd="8dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginRight="8dp"
-                    android:layout_marginTop="8dp"
-                    android:text="Senior Citizen/PWD/Pregnant Woman: P64"
+                    android:text="Standard: P45"
                     android:textSize="13sp" />
 
             </LinearLayout>

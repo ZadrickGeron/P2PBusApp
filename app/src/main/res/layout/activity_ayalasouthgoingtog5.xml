@@ -105,7 +105,8 @@
                     android:layout_height="25dp"
                     android:background="@android:color/darker_gray"
                     android:gravity="center_vertical"
-                    android:text="  Departure Times                                                Every" />
+                    android:text="  Departure Times                                                Every"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView4"
@@ -149,7 +150,8 @@
                     android:layout_height="25dp"
                     android:background="@android:color/darker_gray"
                     android:gravity="center_vertical"
-                    android:text="  Departure Times                                                Every" />
+                    android:text="  Departure Times                                                Every"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView9"

@@ -24,7 +24,7 @@
             android:layout_marginStart="8dp"
             android:background="@android:color/background_dark"
             android:gravity="center_vertical|center_horizontal"
-            android:text="Ayala South Park Mall - Greenbelt 5"
+            android:text="Clark International Airport - Trinoma "
             android:textColor="@android:color/holo_orange_light"
             android:textSize="12sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -78,14 +78,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-                <TextView
-                    android:id="@+id/textView1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Monday - Friday"
-                    android:textColor="@android:color/holo_blue_light"
-                    android:textSize="17sp"
-                    android:textStyle="bold"/>
 
                 <TextView
                     android:id="@+id/textView2"
@@ -96,7 +88,7 @@
                     android:layout_marginLeft="8dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginTop="8dp"
-                    android:text="Ayala Malls South Park to Greenbelt 5 - from 6 AM until 8 PM"
+                    android:text="Clark International Airport to North EDSA MRT Station / Trinoma - from 4:30 AM - 9:00 PM"
                     android:textSize="13sp" />
 
                 <TextView
@@ -105,7 +97,8 @@
                     android:layout_height="25dp"
                     android:background="@android:color/darker_gray"
                     android:gravity="center_vertical"
-                    android:text="  Departure Times                                                Every" />
+                    android:text="  Departure Times                                                Every"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView4"
@@ -113,7 +106,7 @@
                     android:layout_height="25dp"
                     android:background="@android:color/background_light"
                     android:gravity="center_vertical"
-                    android:text="  6 AM - 9:30 AM                                                  30 Minutes" />
+                    android:text="  4:30 AM - 7:30 AM                                                  30 Minutes" />
 
                 <TextView
                     android:id="@+id/textView5"
@@ -121,15 +114,28 @@
                     android:layout_height="25dp"
                     android:background="@android:color/darker_gray"
                     android:gravity="center_vertical"
-                    android:text="  10 AM - 5 PM                                                      1 Hour" />
+                    android:text="  9 PM                                                      1 Hour" />
 
                 <TextView
-                    android:id="@+id/textView6"
-                    android:layout_width="428dp"
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fare"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="match_parent"
                     android:layout_height="25dp"
-                    android:background="@android:color/background_light"
-                    android:gravity="center_vertical"
-                    android:text="  5:30 PM - 8 PM                                                   30 Minutes" />
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Clark to Trinoma: P250"
+                    android:textSize="13sp" />
 
                 <TextView
                     android:id="@+id/textView7"
@@ -140,7 +146,7 @@
                     android:layout_marginLeft="8dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginTop="8dp"
-                    android:text="Greenbelt 5 to Ayala Malls South Park - from 7 AM until 9 PM"
+                    android:text="North EDSA MRT Station / Trinoma to Clark International Airport - from 3:00 AM - 11:00 PM "
                     android:textSize="13sp" />
 
                 <TextView
@@ -175,10 +181,9 @@
                     android:gravity="center_vertical"
                     android:text="  5:30 PM - 9 PM                                                   30 Minutes" />
 
-
                 <TextView
-                    android:id="@+id/textView13"
-                    android:layout_width="wrap_content"
+                    android:id="@+id/textView34"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Fare"
                     android:textColor="@android:color/holo_blue_light"
@@ -194,11 +199,11 @@
                     android:layout_marginLeft="8dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginTop="8dp"
-                    android:text="Standard: P100"
+                    android:text="SM City Clark: P200"
                     android:textSize="13sp" />
 
                 <TextView
-                    android:id="@+id/textView15"
+                    android:id="@+id/textView36"
                     android:layout_width="match_parent"
                     android:layout_height="25dp"
                     android:layout_marginBottom="8dp"
@@ -206,8 +211,9 @@
                     android:layout_marginLeft="8dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginTop="8dp"
-                    android:text="Senior Citizen/PWD/Pregnant Woman: P64"
+                    android:text="Clark Airport: P250"
                     android:textSize="13sp" />
+
 
             </LinearLayout>
         </ScrollView>
